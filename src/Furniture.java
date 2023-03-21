@@ -27,10 +27,6 @@ public abstract class Furniture {
 	// Abstrakt metod
 	public abstract void printInfo();
 	
-	public void use() {
-		
-	}
-	// tabels - foodtable - 
 
 	public static int getCount() {
 		return count;
@@ -39,10 +35,5 @@ public abstract class Furniture {
 	public static void increaseCount() {
 		Furniture.count++;
 	}
-	
-	
-	
-	// printInfo abstract - furnttuee
-	// use polymorfi
 	
 }

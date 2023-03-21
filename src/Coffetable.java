@@ -23,7 +23,6 @@ public class Coffetable extends Table{
 	
 	// polymorfi
 	public void use(String thing, int size) {
-		// placer sak på bord;
 		if (magazine) {
 			System.out.println(this.getName() + " är fyllt med tidningar, " + thing + " får inte plats...");
 		} else {
